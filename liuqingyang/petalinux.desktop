@@ -1,0 +1,17 @@
+[Desktop Entry]
+
+#Version=1.0
+
+#显示名称
+Name[zh_CN]=Petalinux启动开发环境 
+
+Comment=Get Petalinux source
+
+#执行命令，可以带参数
+Exec=gnome-terminal --working-directory=/opt/pz_7015_2015_4  --geometry=100x30+100+100 --title="petalinux" -x  bash -c "/etc/init.d/tftpd-hpa restart;source /opt/petalinux-v2015.4-final/settings.sh; source /opt/Xilinx/SDK/2015.4/settings64.sh  ;exec bash"
+
+#显示图表
+Icon=/root/liuqingyang/123.jpg
+Terminal=false
+Type=Application
+Categories=GNOME;Application;Utility
